@@ -1,30 +1,31 @@
-import React, {useState} from "react";
+import React from "react";
+// import {useState} from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {ThemeContext, themes} from "../contexts/ThemeContext";
 import Toggle from "./Toggle";
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 export const MyNavbar = () => {
-    const [isHover, setIsHover] = useState(false);
+    // const [isHover, setIsHover] = useState(false);
+    //
+    // const handleMouseEnter = () => {
+    //     setIsHover(true);
+    // };
+    // const handleMouseLeave = () => {
+    //     setIsHover(false);
+    // };
 
-    const handleMouseEnter = () => {
-        setIsHover(true);
-    };
-    const handleMouseLeave = () => {
-        setIsHover(false);
-    };
-
-    const menu = {
-        textDecoration: "none",
-        paddingLeft: "2rem",
-        fontSize: "1.8rem",
-        fontFamily: "PT Sans Caption Bold', arial",
-        fontWeight: "500",
-        lineHeight: "1.8",
-        color:isHover ? '#5de2fc': 'var(--color)' ,
-    }
+    // const menu = {
+    //     textDecoration: "none",
+    //     paddingLeft: "2rem",
+    //     fontSize: "1.8rem",
+    //     fontFamily: "PT Sans Caption Bold', arial",
+    //     fontWeight: "500",
+    //     lineHeight: "1.8",
+    //     color:isHover ? '#5de2fc': 'var(--color)' ,
+    // }
 
     return (
         <>
@@ -52,11 +53,11 @@ export const MyNavbar = () => {
                                 />
                             </div>
                         </Nav.Link>
-                        <Link to="/Projects" style={menu}
-                              onMouseEnter={handleMouseEnter}
-                              onMouseLeave={handleMouseLeave}>
-                            О Проектах
-                        </Link>
+                        {/*<Link to="/Projects" style={menu}*/}
+                        {/*      onMouseEnter={handleMouseEnter}*/}
+                        {/*      onMouseLeave={handleMouseLeave}>*/}
+                        {/*    О Проектах*/}
+                        {/*</Link>*/}
                     </Navbar>
                     <Navbar>
                         <Nav.Link href="#home">
