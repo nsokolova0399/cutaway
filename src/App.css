@@ -1,0 +1,218 @@
+@media only screen and (min-width : 250px) {
+    html{
+        font-size: 4px;
+    }
+}
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    html{
+        font-size: 6px;
+    }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    html{
+        font-size: 7px;
+    }
+}
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    html{
+        font-size: 8px;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    html{
+        font-size: 9px;
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    html{
+        font-size: 10px;
+    }
+}
+
+:root[data-theme="light"] {
+    --background-color: #698cc6;
+    --color: #ffe6f9;
+}
+:root[data-theme="dark"] {
+    --background-color: #211139;
+    --color: #ffffff;
+}
+
+.myHeader{
+    display: flex;
+    background: var(--background-color)!important;
+    height: 6rem;
+    box-shadow: 0 .5rem 1rem -.5rem rgba(0, 0, 0, .5);
+}
+.ImgProject{
+    stroke: var(--background-color)!important;
+}
+.myImg{
+    border: .2rem solid;
+    border-color: var(--background-color);
+    border-radius: 200%;
+    opacity: 1;
+}
+
+.myImg:hover{
+    border: .2rem solid white;
+    border-radius: 200%;
+    opacity: 1;
+    transition: all 1.5s ease;
+}
+.root {
+    margin-top:3rem;
+    width: 6rem;
+    height: 3rem;
+    transform: translate(-50%, -50%);
+}
+input {
+    display: none;
+}
+.slider {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    background-color: #5de2fc;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 1.4s;
+}
+.slider:before, .slider:after{
+    content: "";
+    position: absolute;
+    bottom: .5rem;
+    left: .5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #ffffff;
+    border-radius: 3rem;
+}
+.slider:before {
+    transition: 0.4s;
+}
+.slider:after {
+    transition: 0.5s;
+}
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6rem;
+    height: 3rem;
+    border-radius: 4rem;
+    transition: all 1.4s;
+}
+
+input:checked + .slider {
+    background-color: transparent;
+}
+input:checked + .slider:before {
+    transform: translateX(3rem);
+}
+input:checked + .slider:after {
+    transform: translateX(3rem);
+}
+input:checked ~ .wave {
+    display: block;
+    background-color: #9f33d9;
+}
+
+.blockFirst{
+    background-color: var(--background-color);
+    max-height: 60rem;
+    min-height: 40rem;
+    z-index: -200;
+}
+.blockSecond{
+    background-color: rgba(217, 194, 194, 0);
+    max-height: 100rem;
+    min-height: 60rem;
+    width: 99%;
+}
+
+.blockThird{
+    background-color: var(--background-color);
+    color: var(--color);
+    max-height: 90rem;
+    min-height: 30rem;
+    padding-top:5.5rem;
+    padding-bottom:5.5rem;
+    padding-left:13rem;
+    padding-right:13rem;
+}
+
+.textBlockFirst{
+    color: var(--color);
+    padding-left: 1rem;
+}
+
+
+@keyframes myAnim {
+    0%,
+    100% {
+        transform: rotate(0);
+        transform-origin: 100% 90%;
+    }
+
+    15% {
+        transform:  rotate(20deg);
+    }
+
+    30% {
+        transform:  rotate(-3deg);
+    }
+
+    45% {
+        transform:  rotate(15deg);
+    }
+
+    60% {
+        transform:  rotate(-3deg);
+    }
+
+    75% {
+        transform:  rotate(1deg);
+    }
+}
+
+
+@keyframes fade {
+    0%, 100% { opacity: 1 }
+    50% { opacity: 0 }
+}
+
+.carousel .carousel-indicators button {
+    background-color: #3c9feb;
+    border: none;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.titleText{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 1.8;
+    color: var(--background-color);
+    font-family: 'PT Sans Caption Bold', arial;
+}
+.titleTextBlock{
+    font-size: 2rem;
+    font-family: 'PT Sans Caption Bold', arial;
+    font-weight: 500;
+    line-height: 1.8;
+    color: var(--background-color);
+    /*text-indent: 4rem;*/
+    text-align: justify;
+}
