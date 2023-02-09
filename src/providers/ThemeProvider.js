@@ -5,10 +5,10 @@ const getTheme = () => {
     const theme = `${window?.localStorage?.getItem('theme')}`
     if (Object.values(themes).includes(theme)) return theme
 
-    const userMedia = window.matchMedia('(prefers-color-scheme: light)')
-    if (userMedia.matches) return themes.light
+    const userMedia = window.matchMedia('(prefers-color-scheme: dark)')
+    if (userMedia.matches) return themes.dark
 
-    return themes.dark
+    return themes.light
 }
 
 const ThemeProvider = ({ children }) => {

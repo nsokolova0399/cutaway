@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {ThemeContext, themes} from "../contexts/ThemeContext";
 import Toggle from "./Toggle";
-// import {Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 export const MyNavbar = () => {
     // const [isHover, setIsHover] = useState(false);
@@ -17,15 +17,15 @@ export const MyNavbar = () => {
     //     setIsHover(false);
     // };
 
-    // const menu = {
-    //     textDecoration: "none",
-    //     paddingLeft: "2rem",
-    //     fontSize: "1.8rem",
-    //     fontFamily: "PT Sans Caption Bold', arial",
-    //     fontWeight: "500",
-    //     lineHeight: "1.8",
-    //     color:isHover ? '#5de2fc': 'var(--color)' ,
-    // }
+    const menu = {
+        textDecoration: "none",
+        paddingLeft: "2rem",
+        fontSize: "1.8rem",
+        fontFamily: "PT Sans Caption Bold', arial",
+        fontWeight: "500",
+        lineHeight: "1.8",
+        color:'var(--color)',
+    }
 
     return (
         <>
@@ -53,11 +53,16 @@ export const MyNavbar = () => {
                                 />
                             </div>
                         </Nav.Link>
-                        {/*<Link to="/Projects" style={menu}*/}
-                        {/*      onMouseEnter={handleMouseEnter}*/}
-                        {/*      onMouseLeave={handleMouseLeave}>*/}
-                        {/*    О Проектах*/}
-                        {/*</Link>*/}
+                        <div>
+                        <Link to="/" style={menu}>
+                            Главная
+                        </Link>
+                        </div>
+                    <div>
+                        <Link to="/Projects" style={menu}>
+                            О Проектах
+                        </Link>
+                    </div>
                     </Navbar>
                     <Navbar>
                         <Nav.Link href="#home">

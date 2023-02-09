@@ -35,10 +35,8 @@ const MyVanta = () => {
 
                 <div className="col-1 "></div>
                 <Slide direction={"up"} duration={"1000"} className="col-5 col-sm-5 col-md-5 col-lg-5 textBlockFirst text-center" style={textGreeting}>
-
                         Привет! Меня зовут - Анастасия. Я начинающий frontend разработчик. Здесь Вы можете больше
                         узнать обо мне, познакомиться с моими проектами.
-
                 </Slide>
                 <Fade direction={"center"} duration={"2000"} className="col-6 col-sm-6 col-md-6 col-lg-6 textBlockFirst">
                     <div>
@@ -63,8 +61,8 @@ const MyVanta = () => {
 
 const myImgAnastasia = {
     position: "absolute",
-    marginTop: "-4rem",
-    marginLeft: "3.7rem",
+    marginTop: "-4.70rem",
+    marginLeft: "4.2rem",
     Right: "0rem",
     zIndex: "1",
     height: "32rem",

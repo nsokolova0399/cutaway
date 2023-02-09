@@ -82,7 +82,7 @@ input {
     left: 0;
     z-index: 1;
     overflow: hidden;
-    background-color: #5de2fc;
+    background-color: #9f33d9;
     border-radius: 5rem;
     cursor: pointer;
     transition: all 1.4s;
@@ -125,7 +125,7 @@ input:checked + .slider:after {
 }
 input:checked ~ .wave {
     display: block;
-    background-color: #9f33d9;
+    background-color:  #5de2fc;
 }
 
 .blockFirst{
