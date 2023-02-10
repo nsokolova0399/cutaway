@@ -28,7 +28,7 @@ function Pictures() {
                         <Carousel variant="dark">
                             <Carousel.Item interval={1000}>
                                 <img
-                                    className="d-block w-100"
+                                    className="d-block  w-100"
                                     src="HackerNews.png"
                                     alt="First slide"
                                 />
@@ -73,7 +73,7 @@ function Pictures() {
 export default Pictures;
 
 const textMyProjectTitle = {
-    fontSize: "1.9rem",
+    fontSize: "2.1rem",
     textDecoration: "none",
     color: "var(--color)",
     fontWeight: "400",
