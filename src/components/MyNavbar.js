@@ -8,15 +8,6 @@ import Toggle from "./Toggle";
 import {Link} from 'react-router-dom';
 
 export const MyNavbar = () => {
-    // const [isHover, setIsHover] = useState(false);
-    //
-    // const handleMouseEnter = () => {
-    //     setIsHover(true);
-    // };
-    // const handleMouseLeave = () => {
-    //     setIsHover(false);
-    // };
-
     const menu = {
         textDecoration: "none",
         paddingLeft: "2rem",

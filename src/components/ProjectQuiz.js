@@ -1,47 +1,52 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-function ProjectCalculation() {
+function ProjectQuiz() {
     return (
         <div style={frontMain}>
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-4 col-md-12 col-xs-4" style={textMyProject}>
-                        <a href="https://calculator-rr-1.netlify.app/" style={textMyProjectTitle} target="_blank" rel="noreferrer">Простой калькулятор на JS.</a>
-                        <div>Стек: &nbsp;<b>JS</b>,
-                            &nbsp; <b>HTML</b>, &nbsp;<b>CSS</b>.
+                        <a href="https://quiz-z-1.netlify.app/"  rel="noreferrer"  style={textMyProjectTitle} target="_blank">
+                            Quiz - короткий опрос по React.
+                        </a>
+                        <div>Стек: &nbsp;<b>React</b>,&nbsp;<b>CSS</b>.
                         </div>
                         <div>
-                            Реализован парсер для обработки входной строки (в дальнейшим
-                            можно добавить кнопок и реализовать скобки, возведение в степень и т д).
-                            Реализовано popup меню для изменения темы сайта и дизайна калькулятора. &nbsp;
-                            <a href="https://www.figma.com/file/RXMis4i7rYRaI62bD11YmG/calculator?node-id=0%3A1"target="_blank" rel="noreferrer" style={textMyProjectTitle} >
-                                Макет в Figma. </a>
+                            Программа реализована в качестве знакомства с библиотекой React.
                         </div>
                     </div>
                     <div className="col-12 col-lg-8 col-md-12 col-xs-8">
-                        <Carousel variant="dark" style={{padding: "3rem"}}>
-                            <Carousel.Item interval={1800}>
+                        <Carousel variant="dark" style={{padding: "3rem", }}>
+                            <Carousel.Item interval={1400}>
                                 <img
                                     className="d-block w-100"
-                                    src="Calculation.png"
+                                    src="Quiz.png"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1400}>
+                            <Carousel.Item interval={1500}>
                                 <img
                                     className="d-block w-100"
-                                    src="Calculation1.png"
+                                    src="Quiz1.png"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1400}>
+                            <Carousel.Item interval={1100}>
                                 <img
                                     className="d-block w-100"
-                                    src="Calculation2.png"
+                                    src="Quiz2.png"
                                     alt="Third slide"
+                                    style={{height: "100%"}}
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval={1700}>
+                                <img
+                                    className="d-block w-100"
+                                    src="Quiz3.png"
+                                    alt="Four slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
@@ -54,11 +59,11 @@ function ProjectCalculation() {
 }
 
 
-export default ProjectCalculation;
+export default ProjectQuiz;
 
 const frontMain = {
-    backgroundColor: "#B83B5E",
-    color: "white",
+    backgroundColor: "#9bf969",
+    color: "black",
     maxHeight: "90rem",
     minHeight: "30rem",
 }
@@ -72,6 +77,6 @@ const textMyProject = {
 const textMyProjectTitle = {
     fontSize: "1.9rem",
     textDecoration: "none",
-    color:"#ffffff",
+    color:"black",
     fontWeight:"800"
 }

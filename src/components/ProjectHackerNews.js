@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 function ProjectHackerNews() {
-
     return (
         <div style={frontMain}>
             <div className="container">
@@ -29,7 +28,7 @@ function ProjectHackerNews() {
                             <Carousel.Item interval={1700}>
                                 <img
                                     className="d-block w-100"
-                                    src="HackerNews.jpg"
+                                    src="HackerNews.png"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
@@ -37,7 +36,7 @@ function ProjectHackerNews() {
                             <Carousel.Item interval={1600}>
                                 <img
                                     className="d-block w-100"
-                                    src="HackerNews1.jpg"
+                                    src="HackerNews1.png"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
@@ -45,7 +44,7 @@ function ProjectHackerNews() {
                             <Carousel.Item interval={1700}>
                                 <img
                                     className="d-block w-100"
-                                    src="HackerNews2.jpg"
+                                    src="HackerNews2.png"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />

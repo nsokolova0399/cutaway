@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
 function ProjectFrontMain() {
-
     return (
         <div style={frontMain}>
             <div className="container">
@@ -25,7 +24,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={1500}>
                                 <img
                                     className="d-block w-100"
-                                    src="Vue.jpg"
+                                    src="Vue.png"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
@@ -33,7 +32,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={1200}>
                                 <img
                                     className="d-block w-100"
-                                    src="Vue1.jpg"
+                                    src="Vue1.png"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
@@ -41,7 +40,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={1700}>
                                 <img
                                     className="d-block w-100"
-                                    src="Vue2.jpg"
+                                    src="Vue2.png"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />
@@ -49,7 +48,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={1500}>
                                 <img
                                     className="d-block w-100"
-                                    src="Vue3.jpg"
+                                    src="Vue3.png"
                                     alt="Four slide"
                                     style={{height: "100%"}}
                                 />
@@ -57,7 +56,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={1200}>
                                 <img
                                     className="d-block w-100"
-                                    src="Vue4.jpg"
+                                    src="Vue4.png"
                                     alt="Four slide"
                                     style={{height: "100%"}}
                                 />
@@ -65,7 +64,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={1700}>
                                 <img
                                     className="d-block w-100"
-                                    src="Vue5.jpg"
+                                    src="Vue5.png"
                                     alt="Five slide"
                                     style={{height: "100%"}}
                                 />
@@ -73,7 +72,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={1200}>
                                 <img
                                     className="d-block w-100"
-                                    src="Vue6.jpg"
+                                    src="Vue6.png"
                                     alt="Six slide"
                                     style={{height: "100%"}}
                                 />

@@ -146,10 +146,7 @@ input:checked ~ .wave {
     color: var(--color);
     max-height: 90rem;
     min-height: 30rem;
-    padding-top:5.5rem;
-    padding-bottom:5.5rem;
-    padding-left:13rem;
-    padding-right:13rem;
+    padding:3rem;
 }
 
 .textBlockFirst{

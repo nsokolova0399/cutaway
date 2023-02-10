@@ -1,7 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react'
 import FOG from 'vanta/dist/vanta.fog.min'
 import {Fade, Slide} from 'react-awesome-reveal'
-// Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 const MyVanta = () => {
     const [vantaEffect, setVantaEffect] = useState(null);
