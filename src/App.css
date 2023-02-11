@@ -1,3 +1,12 @@
+@font-face {
+    font-famaly:'PTSANSCAPTION';
+    src:url("../fonts/pt-sans-caption-bold_[allfont.ru].ttf")
+}
+
+@font-face {
+    font-famaly:'DSGoose';
+    src:url("../fonts/ds-goose_[allfont.ru].ttf")
+}
 @media only screen and (min-width : 250px) {
     html{
         font-size: 4px;
@@ -202,11 +211,11 @@ input:checked ~ .wave {
     font-weight: 800;
     line-height: 1.8;
     color: var(--background-color);
-    font-family: 'PT Sans Caption Bold', arial;
+    font-family: 'PTSANSCAPTION',cursive, sans-serif, arial;
 }
 .titleTextBlock{
     font-size: 2rem;
-    font-family: 'PT Sans Caption Bold', arial;
+    font-family: 'PTSANSCAPTION',cursive, sans-serif, arial;
     font-weight: 500;
     line-height: 1.8;
     color: var(--background-color);

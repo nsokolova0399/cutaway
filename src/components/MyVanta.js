@@ -30,14 +30,13 @@ const MyVanta = () => {
 
     return <div ref={myRef} className="blockFirst">
         <div className="container">
-            <div className="row" style={{paddingTop: "5rem"}}>
-
+            <div className="row" >
                 <div className="col-1 "></div>
                 <Slide direction={"up"} duration={"1000"} className="col-5 col-sm-5 col-md-5 col-lg-5 textBlockFirst text-center" style={textGreeting}>
                         Привет! Меня зовут - Анастасия. Я начинающий frontend разработчик. Здесь Вы можете больше
                         узнать обо мне, познакомиться с моими проектами.
                 </Slide>
-                <Fade direction={"center"} duration={"2000"} className="col-6 col-sm-6 col-md-6 col-lg-6 textBlockFirst">
+                <Fade direction={"center"} duration={"2000"} className="col-6 col-sm-6 col-md-6 col-lg-6 textBlockFirst" style={{paddingTop:"6rem"}}>
                     <div>
                     <img
                         alt=""
@@ -57,7 +56,6 @@ const MyVanta = () => {
     </div>
 }
 
-
 const myImgAnastasia = {
     position: "absolute",
     marginTop: "-4.70rem",
@@ -65,7 +63,6 @@ const myImgAnastasia = {
     Right: "0rem",
     zIndex: "1",
     height: "32rem",
-
 }
 const myImgArm = {
     position: "absolute",
@@ -74,13 +71,13 @@ const myImgArm = {
     animation: "myAnim 3s ease 2s infinite normal forwards",
     zIndex: "0",
     height: "15rem"
-
 }
 const textGreeting = {
+    paddingTop:"2rem",
     fontSize: "2.5rem",
-    fontFamily: "'DS Goose', arial",
+    fontFamily: "DSGoose, cursive, sans-serif",
     fontWeight: "200",
-    lineHeight: "1.8"
+    lineHeight: "1.8",
 }
 
 
