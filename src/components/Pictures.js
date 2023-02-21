@@ -8,11 +8,15 @@ function Pictures() {
                 <div className="row">
                     <div className="col-12 col-lg-12 col-md-12 col-xs-12" style={textMyProjectTitle}>
                         <div>
-                            <b>Стек:</b> HTML, CSS, Sass, JavaScript, Vue.js (Vue Router, Vuex), React.js (React Route,
+                            <b>Стек:</b> HTML, CSS, Sass, JavaScript,Vue.js (Vue Router, Vuex), React.js (React Route,
                             Redux).
                         </div>
                         <div>
-                            <b>Базы данных:</b> GraphQL, SQL.
+                            <b>Базы данных:</b> SQL (простые запросы, обновления данных, создание и удаления таблиц, вложенные запросы, объединение таблиц).
+                            Понимаю устройство базы данных, построение базы данных с помощью ER модели.
+                        </div>
+                        <div>
+                            <b>Язык запросов:</b> GraphQL.
                         </div>
                         <div>
                             <b>Система контроля версий:</b> Git.
@@ -31,13 +35,6 @@ function Pictures() {
                                     className="d-block  w-100"
                                     src="HackerNews.png"
                                     alt="First slide"
-                                />
-                            </Carousel.Item>
-                            <Carousel.Item interval={600}>
-                                <img
-                                    className="d-block w-100"
-                                    src="Quiz.png"
-                                    alt="Second slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item interval={600}>
