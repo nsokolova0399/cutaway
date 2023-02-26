@@ -15,8 +15,6 @@ function ProjectCalculation() {
                             Реализован парсер для обработки входной строки (в дальнейшим
                             можно добавить кнопок и реализовать скобки, возведение в степень и т д).
                             Реализовано popup меню для изменения темы сайта и дизайна калькулятора. &nbsp;
-                            <a href="https://www.figma.com/file/RXMis4i7rYRaI62bD11YmG/calculator?node-id=0%3A1"target="_blank" rel="noreferrer" style={textMyProjectTitle} >
-                                Макет в Figma. </a>
                         </div>
                     </div>
                     <div className="col-12 col-lg-8 col-md-12 col-xs-8">
