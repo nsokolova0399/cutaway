@@ -37,21 +37,21 @@ function Pictures() {
                                     alt="First slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={600}>
+                            <Carousel.Item interval={1600}>
                                 <img
                                     className="d-block w-100"
                                     src="Calculation.png"
                                     alt="Third slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={600}>
+                            <Carousel.Item interval={2600}>
                                 <img
                                     className="d-block w-100"
                                     src="Vue.png"
                                     alt="Four slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={600}>
+                            <Carousel.Item interval={1600}>
                                 <img
                                     className="d-block w-100"
                                     src="VueLearning.png"

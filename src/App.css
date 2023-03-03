@@ -1,11 +1,11 @@
 @font-face {
     font-famaly:'PTSANSCAPTION';
-    src:url("../fonts/pt-sans-caption-bold_[allfont.ru].ttf")
+    src:url("../fonts/Istok-Regular.ttf")
 }
 
 @font-face {
     font-famaly:'DSGoose';
-    src:url("../fonts/ds-goose_[allfont.ru].ttf")
+    src:url("../fonts/globersemiboldfree.ttf")
 }
 @media only screen and (min-width : 250px) {
     html{
