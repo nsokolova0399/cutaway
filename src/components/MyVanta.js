@@ -39,13 +39,13 @@ const MyVanta = () => {
                 <Fade direction={"center"} duration={"2000"} className="col-6 col-sm-6 col-md-6 col-lg-6 textBlockFirst" style={{paddingTop:"6rem"}}>
                     <div>
                     <img
-                        alt=""
-                        src="/Arm.svg"
+                        alt="Arm"
+                        src="./image/Arm.svg"
                         style={myImgArm}
                     />
                     <img
-                        alt=""
-                        src="/Anastasia.svg"
+                        alt="Anastasia"
+                        src="./image/Anastasia.svg"
                         style={myImgAnastasia}
                     />
                     </div>

@@ -21,34 +21,34 @@ function ProjectVueLearning() {
                     </div>
                     <div className="col-12 col-lg-8 col-md-12 col-xs-8">
                         <Carousel variant="dark" style={{padding: "3rem", }}>
-                            <Carousel.Item interval={1700}>
+                            <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="VueLearning.png"
+                                    src="./image/VueLearning.png"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1500}>
+                            <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="VueLearning1.png"
+                                    src="./image/VueLearning1.png"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1100}>
+                            <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="VueLearning2.png"
+                                    src="./image/VueLearning2.png"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1400}>
+                            <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="VueLearning3.png"
+                                    src="./image/VueLearning3.png"
                                     alt="Four slide"
                                     style={{height: "100%"}}
                                 />

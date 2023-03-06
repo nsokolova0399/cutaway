@@ -5,6 +5,8 @@ import React from "react";
 import ThemeProvider from "./providers/ThemeProvider";
 import './App.css';
 import {Projects} from "./pages/Projects";
+import {Practice} from "./pages/Practice";
+
 function App() {
     return (
         <ThemeProvider>
@@ -13,6 +15,7 @@ function App() {
                <Routes>
                    <Route path={"/"} element={<Home />}/>
                    <Route path={"/Projects"} element={<Projects />}/>
+                   <Route path={"/Practice"} element={<Practice />}/>
                </Routes>
         </BrowserRouter>
         </ThemeProvider>

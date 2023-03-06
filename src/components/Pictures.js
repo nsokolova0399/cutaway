@@ -30,31 +30,31 @@ function Pictures() {
                     </div>
                     <div className="col-12 col-lg-12 col-md-12 col-xs-12">
                         <Carousel variant="dark">
-                            <Carousel.Item interval={1000}>
+                            <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block  w-100"
-                                    src="HackerNews.png"
+                                    src="./image/HackerNews.png"
                                     alt="First slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1600}>
+                            <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="Calculation.png"
+                                    src="./image/Calculation.png"
                                     alt="Third slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2600}>
+                            <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="Vue.png"
+                                    src="./image/Vue.png"
                                     alt="Four slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1600}>
+                            <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="VueLearning.png"
+                                    src="./image/VueLearning.png"
                                     alt="Five slide"
                                 />
                             </Carousel.Item>
@@ -75,4 +75,5 @@ const textMyProjectTitle = {
     color: "var(--color)",
     fontWeight: "400",
     paddingBottom: "2rem",
+    lineHeight: 'normal',
 }

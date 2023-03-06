@@ -19,26 +19,26 @@ function ProjectCalculation() {
                     </div>
                     <div className="col-12 col-lg-8 col-md-12 col-xs-8">
                         <Carousel variant="dark" style={{padding: "3rem"}}>
-                            <Carousel.Item interval={1800}>
+                            <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="Calculation.png"
+                                    src="./image/Calculation.png"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1400}>
+                            <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="Calculation1.png"
+                                    src="./image/Calculation1.png"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1400}>
+                            <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="Calculation2.png"
+                                    src="./image/Calculation2.png"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />

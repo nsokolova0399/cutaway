@@ -14,45 +14,45 @@ export const MyNavbar = () => {
         fontFamily: "PT Sans Caption Bold', arial",
         fontWeight: "500",
         lineHeight: "1.8",
-        color:'var(--color)',
+        color: 'var(--color)',
     }
 
     return (
         <>
-
             <Navbar bg="light" className="myHeader text-right">
                 <Container>
                     <Navbar>
-                        <Nav.Link href="#home">
-                            <div href="https://vk.com/nastasia__s_s" target="_blank" className="d-flex myImg">
+                        <Nav.Link href="https://vk.com/nastasia__s_s" target="_blank" >
+                            <div className="d-flex myImg">
                                 <img
-                                    alt=""
-                                    src="vk.svg"
-                                    width="34rem"
-                                    height="34rem"
+                                    alt="vk"
+                                    src="./image/vk.svg"
                                 />
                             </div>
                         </Nav.Link>
-                        <Nav.Link href="#home">
-                            <div href="https://t.me/nsokolova_03" target="_blank" className="d-flex myImg">
+                        <Nav.Link href="https://t.me/nsokolova_03" target="_blank">
+                            <div className="d-flex myImg">
                                 <img
-                                    alt=""
-                                    src="telegramm.svg"
-                                    width="34rem"
-                                    height="34rem"
+                                    alt="telegramm"
+                                    src="./image/telegramm.svg"
                                 />
                             </div>
                         </Nav.Link>
                         <div>
-                        <Link to="/" style={menu}>
-                            Главная
-                        </Link>
+                            <Link to="/" style={menu}>
+                                Главная
+                            </Link>
                         </div>
-                    <div>
-                        <Link to="/Projects" style={menu}>
-                            О Проектах
-                        </Link>
-                    </div>
+                        <div>
+                            <Link to="/Projects" style={menu}>
+                                О Проектах
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to="/Practice" style={menu}>
+                                Практикум
+                            </Link>
+                        </div>
                     </Navbar>
                     <Navbar>
                         <Nav.Link href="#home">
@@ -76,7 +76,6 @@ export const MyNavbar = () => {
         </>
     )
 }
-
 
 
 

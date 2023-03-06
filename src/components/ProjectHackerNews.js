@@ -25,26 +25,26 @@ function ProjectHackerNews() {
                     </div>
                     <div className="col-12 col-lg-8 col-md-12 col-xs-8">
                         <Carousel variant="dark" style={{padding: "3rem"}}>
-                            <Carousel.Item interval={1700}>
+                            <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="HackerNews.png"
+                                    src="./image/HackerNews.png"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1600}>
+                            <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="HackerNews1.png"
+                                    src="./image/HackerNews1.png"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={1700}>
+                            <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="HackerNews2.png"
+                                    src="./image/HackerNews2.png"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />

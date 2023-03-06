@@ -31,7 +31,6 @@ function AboutMe() {
 
                 </div>
                 <div className="row" style={{padding: "2rem"}}>
-                    {/*<Fade direction={"left"} duration={"4000"}>*/}
                         <div className="col-12 col-lg-12 col-md-12 col-xs-12 titleText">
                             Почему frontend?
                         </div>
@@ -54,7 +53,6 @@ function AboutMe() {
 
 
 export default AboutMe;
-
 
 const bold = {
     fontWeight: "800"
