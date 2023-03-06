@@ -1,10 +1,10 @@
 @font-face {
-    font-famaly:'PTSANSCAPTION';
+    font-famaly:'IstokRegular';
     src:url("../fonts/Istok-Regular.ttf")
 }
 
 @font-face {
-    font-famaly:'DSGoose';
+    font-famaly:'GloberSemiBold';
     src:url("../fonts/globersemiboldfree.ttf")
 }
 @media only screen and (min-width : 250px) {
@@ -211,14 +211,13 @@ input:checked ~ .wave {
     font-weight: 800;
     line-height: 1.8;
     color: var(--background-color);
-    font-family: 'PTSANSCAPTION',cursive, sans-serif, arial;
+    font-family: 'IstokRegular',arial, sans-serif;
 }
 .titleTextBlock{
     font-size: 2rem;
-    font-family: 'PTSANSCAPTION',cursive, sans-serif, arial;
+    font-family: 'IstokRegular',arial, sans-serif;
     font-weight: 500;
     line-height: 1.8;
     color: var(--background-color);
-    /*text-indent: 4rem;*/
     text-align: justify;
 }

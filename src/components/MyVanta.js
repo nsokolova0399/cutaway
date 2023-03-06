@@ -75,7 +75,7 @@ const myImgArm = {
 const textGreeting = {
     paddingTop:"2rem",
     fontSize: "2.5rem",
-    fontFamily: "DSGoose, cursive, sans-serif",
+    fontFamily: "GloberSemiBold, sans-serif",
     fontWeight: "200",
     lineHeight: "1.8",
 }
