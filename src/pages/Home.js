@@ -6,9 +6,9 @@ import AboutMe from "../components/AboutMe";
 export const Home = () => {
     return (
         <>
-            <MyVanta> </MyVanta>
-            <AboutMe></AboutMe>
-            <Pictures></Pictures>
+            <MyVanta />
+            <AboutMe />
+            <Pictures />
 
         </>
     )

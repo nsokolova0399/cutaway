@@ -1,15 +1,14 @@
-.main-font{
-    background-color: #ffe1ee;
-    color: black;
-}
-
 .main-grid{
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-gap: 15px;
     padding: 8.5rem 8.5rem 8.5rem 8.5rem;
+}
+.main-title{
+    text-align: center;
+    padding-top: 10rem;
+    font-size: 4rem;
 }
 .main-grid img{
     width: 100%;

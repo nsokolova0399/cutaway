@@ -7,13 +7,13 @@ import ProjectVueLearning from "../components/ProjectVueLearning"
 export const Projects = () => {
     return (
         <>
-            <ProjectFrontMain></ProjectFrontMain>
-            <div style={{height: "8rem", backgroundColor: "#ffffff"}}></div>
-            <ProjectCalculation></ProjectCalculation>
-            <div style={{height: "8rem", backgroundColor: "#ffffff"}}></div>
-            <ProjectHackerNews></ProjectHackerNews>
-            <div style={{height: "8rem", backgroundColor: "#ffffff"}}></div>
-            <ProjectVueLearning></ProjectVueLearning>
+            <ProjectFrontMain/>
+            <div style={{height: "8rem", backgroundColor: "#ffffff"}}/>
+            <ProjectCalculation/>
+            <div style={{height: "8rem", backgroundColor: "#ffffff"}}/>
+            <ProjectHackerNews/>
+            <div style={{height: "8rem", backgroundColor: "#ffffff"}}/>
+            <ProjectVueLearning/>
         </>
     )
 }

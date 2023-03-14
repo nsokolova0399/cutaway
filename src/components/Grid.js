@@ -18,7 +18,8 @@ function Grid() {
     const [Img4_2, setImg4] = useState(img4_1);
 
     return (
-        <div className="main-font">
+        <div className="main-font" style={{ backgroundColor: "#ffadde",color: "black"}}>
+            <h1 className="main-title" style={{color: "#CA3E61"}}>CSS Grid</h1>
             <div className="main-grid">
                 <div className="main-grid-text">
                     Главным цветом года 2023 года по версии института цвета Pantone стал оттенок красного Viva Magenta
