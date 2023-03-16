@@ -15,8 +15,8 @@ function DiveAscent() {
         }
     )
     return (
-        <div className="main-font" style={{backgroundColor: "#ffadad", color: "black"}}>
-            <h1 className="main-title" style={{color: "#b80d0d"}}>Всплытие и погружение</h1>
+        <div className="main-font" style={{backgroundColor: "#ddadff", color: "black"}}>
+            <h1 className="main-title" style={{color: "#6d0a97"}}>Всплытие и погружение</h1>
             <div className="main-block">
                 <div className="main-block1">
                     <h1 className="main-title1">Всплытие</h1>

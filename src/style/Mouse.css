@@ -1,0 +1,29 @@
+.main-puzzle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10rem;
+    padding: 0rem 8.5rem 8.5rem 8.5rem;
+
+
+}
+.main-block1-square{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 0.5rem;
+    padding: 0rem 0rem 5rem 0rem;
+}
+.main-block1-square img{
+    position: relative;
+    width: 13rem;
+
+}
+.main-border{
+    position: relative;
+    border: 1rem solid #005a84;
+    border-radius: 20px;
+    height: 30rem;
+    width: 30rem;
+}
