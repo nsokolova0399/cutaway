@@ -9,6 +9,7 @@ function Mouse() {
         square.ondragstart = function () {
             return false;
         };
+
         square.setAttribute('style', 'position: absolute')
 
         moveAt(e);
@@ -31,13 +32,45 @@ function Mouse() {
         document.onmousemove = function (e) {
             moveAt(e);
         }
-        document.ontouchmove = function (e) {
-            moveAt(e);
-        }
 
         square.onmouseup = function () {
             document.onmousemove = null;
             square.onmouseup = null;
+        }
+        square.style.width = '13rem'
+    }
+
+
+    function ontouchstart(e) {
+
+        let square = document.querySelector(`.${e.target.className}`);
+        let border = document.querySelector('.main-border');
+
+        square.ondragstart = function () {
+            return false;
+        };
+
+        square.setAttribute('style', 'position: absolute; z-index:1000')
+
+        moveAt(e);
+        document.querySelector('.main-puzzle').appendChild(square);
+
+        function moveAt(e) {
+            square.style.left = (e.targetTouches[0].pageX - square.offsetWidth / 2) + 'px';
+            square.style.top = (e.targetTouches[0].pageY - square.offsetHeight / 2) + 'px';
+            if (square.getBoundingClientRect().x > border.getBoundingClientRect().x - square.offsetWidth
+                && square.getBoundingClientRect().x < border.getBoundingClientRect().x + border.getBoundingClientRect().width
+                && square.getBoundingClientRect().y > border.getBoundingClientRect().y - square.offsetHeight
+                && square.getBoundingClientRect().y < border.getBoundingClientRect().y + border.getBoundingClientRect().height
+            ) {
+                border.setAttribute('style', 'border-color: white')
+            } else {
+                border.setAttribute('style', 'border-color: #005a84')
+            }
+        }
+
+        document.ontouchmove = function (e) {
+            moveAt(e);
         }
         square.ontouchend = function () {
             document.ontouchmove = null;
@@ -45,19 +78,18 @@ function Mouse() {
         }
         square.style.width = '13rem'
     }
-
     return (
         <div className="main-font" style={{backgroundColor: "#adb8ff", color: "black"}}>
             <h1 className="main-title" style={{color: "#0f0a97"}}>События мыши</h1>
 
             <div className="main-puzzle">
                 <div className="main-block1-square">
-                    <img className="item-1" alt="" src="image/rectangle1.svg" onMouseDown={onmousedown} onTouchStart={onmousedown} style={{}}/>
-                    <img className="item-2" alt="" src="image/rectangle2.svg" onMouseDown={onmousedown} onTouchStart={onmousedown} style={{}}/>
-                    <img className="item-3" alt="" src="image/rectangle3.svg" onMouseDown={onmousedown} onTouchStart={onmousedown} style={{}}/>
-                    <img className="item-4" alt="" src="image/rectangle4.svg" onMouseDown={onmousedown} onTouchStart={onmousedown} style={{}}/>
+                    <img className="item-1" alt="" src="image/rectangle1.svg" onMouseDown={onmousedown} onTouchStart={ontouchstart} style={{}}/>
+                    <img className="item-2" alt="" src="image/rectangle2.svg" onMouseDown={onmousedown} onTouchStart={ontouchstart} style={{}}/>
+                    <img className="item-3" alt="" src="image/rectangle3.svg" onMouseDown={onmousedown} onTouchStart={ontouchstart} style={{}}/>
+                    <img className="item-4" alt="" src="image/rectangle4.svg" onMouseDown={onmousedown} onTouchStart={ontouchstart} style={{}}/>
                 </div>
-                <div className="main-block2">
+                <div className="main-block2-square">
                     <div className="main-border"></div>
                 </div>
             </div>
