@@ -24,7 +24,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue.png"
+                                    src="./image/Vue.webp"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
@@ -32,7 +32,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue1.png"
+                                    src="./image/Vue1.webp"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
@@ -40,7 +40,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue2.png"
+                                    src="./image/Vue2.webp"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />
@@ -48,7 +48,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue3.png"
+                                    src="./image/Vue3.webp"
                                     alt="Four slide"
                                     style={{height: "100%"}}
                                 />
@@ -56,7 +56,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue4.png"
+                                    src="./image/Vue4.webp"
                                     alt="Four slide"
                                     style={{height: "100%"}}
                                 />
@@ -64,7 +64,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue5.png"
+                                    src="./image/Vue5.webp"
                                     alt="Five slide"
                                     style={{height: "100%"}}
                                 />
@@ -72,7 +72,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue6.png"
+                                    src="./image/Vue6.webp"
                                     alt="Six slide"
                                     style={{height: "100%"}}
                                 />

@@ -22,7 +22,7 @@ function ProjectCalculation() {
                             <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Calculation.png"
+                                    src="./image/Calculation.webp"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
@@ -30,7 +30,7 @@ function ProjectCalculation() {
                             <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Calculation1.png"
+                                    src="./image/Calculation1.webp"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
@@ -38,7 +38,7 @@ function ProjectCalculation() {
                             <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Calculation2.png"
+                                    src="./image/Calculation2.webp"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />

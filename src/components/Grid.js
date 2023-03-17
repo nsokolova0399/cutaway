@@ -1,14 +1,14 @@
 import React, {useState} from "react";
 import '../style/Grid.css';
 
-const img1_1 = "image/vogue1.jpg";
-const img1_2 = "image/vogue5.jpg";
-const img2_1 = "image/vogue2.jpg";
-const img2_2 = "image/vogue8.jpg";
-const img3_1 = "image/vogue3.jpg";
-const img3_2 = "image/vogue6.jpg";
-const img4_1 = "image/vogue4.jpg";
-const img4_2 = "image/vogue7.jpg";
+const img1_1 = "image/vogue1.webp";
+const img1_2 = "image/vogue5.webp";
+const img2_1 = "image/vogue2.webp";
+const img2_2 = "image/vogue8.webp";
+const img3_1 = "image/vogue3.webp";
+const img3_2 = "image/vogue6.webp";
+const img4_1 = "image/vogue4.webp";
+const img4_2 = "image/vogue7.webp";
 
 function Grid() {
 

@@ -33,28 +33,28 @@ function Pictures() {
                             <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block  w-100"
-                                    src="./image/HackerNews.png"
+                                    src="./image/HackerNews.webp"
                                     alt="First slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Calculation.png"
+                                    src="./image/Calculation.webp"
                                     alt="Third slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue.png"
+                                    src="./image/Vue.webp"
                                     alt="Four slide"
                                 />
                             </Carousel.Item>
                             <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/VueLearning.png"
+                                    src="./image/VueLearning.webp"
                                     alt="Five slide"
                                 />
                             </Carousel.Item>

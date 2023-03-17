@@ -24,7 +24,7 @@ function ProjectVueLearning() {
                             <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/VueLearning.png"
+                                    src="./image/VueLearning.webp"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
@@ -32,7 +32,7 @@ function ProjectVueLearning() {
                             <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/VueLearning1.png"
+                                    src="./image/VueLearning1.webp"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
@@ -40,7 +40,7 @@ function ProjectVueLearning() {
                             <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/VueLearning2.png"
+                                    src="./image/VueLearning2.webp"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />
@@ -48,7 +48,7 @@ function ProjectVueLearning() {
                             <Carousel.Item interval={2100}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/VueLearning3.png"
+                                    src="./image/VueLearning3.webp"
                                     alt="Four slide"
                                     style={{height: "100%"}}
                                 />

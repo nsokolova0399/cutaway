@@ -28,7 +28,7 @@ function ProjectHackerNews() {
                             <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/HackerNews.png"
+                                    src="./image/HackerNews.webp"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
@@ -36,7 +36,7 @@ function ProjectHackerNews() {
                             <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/HackerNews1.png"
+                                    src="./image/HackerNews1.webp"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
@@ -44,7 +44,7 @@ function ProjectHackerNews() {
                             <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/HackerNews2.png"
+                                    src="./image/HackerNews2.webp"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />
