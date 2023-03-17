@@ -2,23 +2,18 @@ import React from 'react';
 import '../style/Mouse.css';
 
 function Mouse() {
-    function moveAt(e, pageX, pageY, square, border, widthClient) {
-        let withSquare = square.offsetWidth;
-        let heightSquare = square.offsetHeight;
-
+    function moveAt(e, pageX, pageY, square, border,withSquare,heightSquare) {
         square.style.left = (pageX - withSquare / 2) + 'px';
         square.style.top = (pageY - heightSquare / 2) + 'px';
-        if (pageX - withSquare / 2 + withSquare < e.target.offsetParent.clientWidth) {
-            if (square.getBoundingClientRect().x > border.getBoundingClientRect().x - square.offsetWidth
-                && square.getBoundingClientRect().x < border.getBoundingClientRect().x + border.getBoundingClientRect().width
-                && square.getBoundingClientRect().y > border.getBoundingClientRect().y - square.offsetHeight
-                && square.getBoundingClientRect().y < border.getBoundingClientRect().y + border.getBoundingClientRect().height
-            ) {
-                border.setAttribute('style', 'border-color: white')
-            } else {
-                border.setAttribute('style', 'border-color: #005a84')
-            }
-        } else return
+        if (square.getBoundingClientRect().x > border.getBoundingClientRect().x - withSquare
+            && square.getBoundingClientRect().x < border.getBoundingClientRect().x + border.getBoundingClientRect().width
+            && square.getBoundingClientRect().y > border.getBoundingClientRect().y - heightSquare
+            && square.getBoundingClientRect().y < border.getBoundingClientRect().y + border.getBoundingClientRect().height
+        ) {
+            border.setAttribute('style', 'border-color: white')
+        } else {
+            border.setAttribute('style', 'border-color: #005a84')
+        }
     }
 
     function onmousedown(e) {
@@ -33,22 +28,29 @@ function Mouse() {
 
         let pageX = e.pageX;
         let pageY = e.pageY;
-        let clientW = e.target.offsetParent.clientWidth
-        moveAt(e, pageX, pageY, square, border, clientW);
-        document.querySelector('.main-puzzle').appendChild(square);
+        let withSquare = square.offsetWidth;
+        let heightSquare = square.offsetHeight;
+        let clientW = document.body.clientWidth;
+        let clientH = document.body.offsetHeight;
 
+        if (pageX + withSquare / 2 < clientW && pageY + heightSquare / 2 < clientH) {
+            moveAt(e, pageX, pageY, square, border,withSquare,heightSquare);
+            document.querySelector('.main-puzzle').appendChild(square);
 
-        document.onmousemove = function (e) {
-            pageX = e.pageX;
-            pageY = e.pageY;
-            clientW = e.target.offsetParent.clientWidth;
-            moveAt(e, pageX, pageY, square, border, clientW);
+            document.onmousemove = function (e) {
+                pageX = e.pageX;
+                pageY = e.pageY;
+                if (pageX + withSquare / 2 < clientW && pageY + heightSquare / 2 < clientH) {
+                    moveAt(e, pageX, pageY, square, border, withSquare,heightSquare);
+                }
+            }
         }
 
         square.onmouseup = function () {
             document.onmousemove = null;
             square.onmouseup = null;
         }
+
         square.style.width = '13rem'
     }
 
@@ -64,23 +66,33 @@ function Mouse() {
         square.setAttribute('style', 'position: absolute; z-index:1000')
         let pageX = e.targetTouches[0].pageX;
         let pageY = e.targetTouches[0].pageY;
-        let clientW = e.targetTouches[0].target.offsetParent.clientWidth;
-        moveAt(e, pageX, pageY, square, border);
-        document.querySelector('.main-puzzle').appendChild(square);
+        let withSquare = square.offsetWidth;
+        let heightSquare = square.offsetHeight;
+        let clientW = document.body.clientWidth;
+        let clientH = document.body.offsetHeight;
 
-        document.ontouchmove = function (e) {
-            pageX = e.targetTouches[0].pageX;
-            pageY = e.targetTouches[0].pageY;
-            clientW = e.targetTouches[0].target.offsetParent.clientWidth;
-            moveAt(e, pageX, pageY, square, border, clientW);
+        if (pageX + withSquare / 2 < clientW && pageY + heightSquare / 2 < clientH) {
+            moveAt(e, pageX, pageY, square, border,withSquare,heightSquare);
+            document.querySelector('.main-puzzle').appendChild(square);
+
+            document.ontouchmove = function (e) {
+                pageX = e.targetTouches[0].pageX;
+                pageY = e.targetTouches[0].pageY;
+                if (pageX + withSquare / 2 < clientW && pageY + heightSquare / 2 < clientH) {
+                    moveAt(e, pageX, pageY, square, border, withSquare,heightSquare);
+                }
+            }
         }
-        square.ontouchend = function () {
 
+
+        square.ontouchend = function () {
             document.ontouchmove = null;
             square.ontouchend = null;
         }
+
         square.style.width = '13rem'
     }
+
 
     return (
         <div className="main-font" style={{backgroundColor: "#adb8ff", color: "black"}}>
