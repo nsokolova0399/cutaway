@@ -221,3 +221,15 @@ input:checked ~ .wave {
     color: var(--background-color);
     text-align: justify;
 }
+.blockWhite{
+    height: 8rem;
+    background-color: #ffffff;
+}
+.hrefGithub{
+    text-decoration: none;
+    color:#ffffff;
+}
+.hrefGithub:hover{
+    text-decoration: none;
+    color: #b9f687;
+}

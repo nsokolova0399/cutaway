@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react'
-import FOG from 'vanta/dist/vanta.fog.min'
+import CLOUDS from 'vanta/dist/vanta.clouds.min'
 import {Fade, Slide} from 'react-awesome-reveal'
 
 const MyVanta = () => {
@@ -7,19 +7,18 @@ const MyVanta = () => {
     const myRef = useRef(null);
     useEffect(() => {
         if (!vantaEffect) {
-            setVantaEffect(FOG({
-                el: myRef.current,
+            setVantaEffect(CLOUDS({
+                el:  myRef.current,
                 mouseControls: true,
                 touchControls: true,
-                gyroControls: true,
+                gyroControls: false,
                 minHeight: 200.00,
                 minWidth: 200.00,
-                highlightColor: 0x540c54,
-                midtoneColor: 0xa515d4,
-                lowlightColor: 0x120c30,
-                baseColor: 0x210454,
-                speed: 4.00,
-                zoom: 0.80
+                skyColor: 0x0,
+                cloudColor: 0x8c1990,
+                sunColor: 0xff1885,
+                sunGlareColor: 0xff3030,
+                speed: 1.50
             }))
         }
         return () => {
@@ -30,8 +29,7 @@ const MyVanta = () => {
 
     return <div ref={myRef} className="blockFirst">
         <div className="container">
-            <div className="row" >
-                <div className="col-1 "></div>
+            <div className="row" style={{justifyContent:"space-between", display:"flex"}}>
                 <Slide direction={"up"} duration={"1000"} className="col-5 col-sm-5 col-md-5 col-lg-5 textBlockFirst text-center" style={textGreeting}>
                         Привет! Меня зовут - Анастасия. Я начинающий frontend разработчик. Здесь Вы можете больше
                         узнать обо мне, познакомиться с моими проектами.
@@ -73,7 +71,8 @@ const myImgArm = {
     height: "15rem"
 }
 const textGreeting = {
-    paddingTop:"2rem",
+    paddingTop:"4rem",
+    paddingBottom:"auto",
     fontSize: "2.5rem",
     fontFamily: "GloberSemiBold, sans-serif",
     fontWeight: "200",

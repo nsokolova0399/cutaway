@@ -10,7 +10,20 @@ function ProjectVueLearning() {
                         <a href="https://learinig-vue-1.netlify.app/"  rel="noreferrer"  style={textMyProjectTitle} target="_blank">
                          Проект-обучение навыкам по Vue.
                         </a>
-                        <div>Стек: &nbsp;<b>Vue.js</b> (vue-router, vuex),&nbsp;<b>CSS</b>.
+                        <div><b>Стек:</b> &nbsp;<b>Vue.js</b> (vue-router, vuex),&nbsp;<b>Axios</b>,&nbsp;<b>CSS</b>.
+                        </div>
+                        <div>
+                            <b>
+                                <a style={{color:"#000000"}} className="hrefGithub" target="_blank" rel="noreferrer" href="https://github.com/nsokolova0399/vue_learning">Ссылка
+                                    на github.
+                                </a>
+                            </b>
+                        </div>
+                        <div>
+                            <b>
+                                <a style={{color:"#000000"}} className="hrefGithub" target="_blank" rel="noreferrer" href="https://learinig-vue-1.netlify.app/"> Тут можно посмотреть как работает проект.
+                                </a>
+                            </b>
                         </div>
                         <div>
                             Программа реализована в качестве обучения базовым навыкам во Vue.js.
@@ -21,7 +34,7 @@ function ProjectVueLearning() {
                     </div>
                     <div className="col-12 col-lg-8 col-md-12 col-xs-8">
                         <Carousel variant="dark" style={{padding: "3rem", }}>
-                            <Carousel.Item interval={2100}>
+                            <Carousel.Item interval={2800}>
                                 <img
                                     className="d-block w-100"
                                     src="./image/VueLearning.webp"
@@ -29,7 +42,7 @@ function ProjectVueLearning() {
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2100}>
+                            <Carousel.Item interval={2500}>
                                 <img
                                     className="d-block w-100"
                                     src="./image/VueLearning1.webp"
@@ -45,7 +58,7 @@ function ProjectVueLearning() {
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2100}>
+                            <Carousel.Item interval={2400}>
                                 <img
                                     className="d-block w-100"
                                     src="./image/VueLearning3.webp"

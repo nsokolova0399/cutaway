@@ -10,9 +10,22 @@ function ProjectHackerNews() {
                         <a href="https://capable-starlight-afd13b.netlify.app/" style={textMyProjectTitle} rel="noreferrer" target="_blank">
                             Интерфейс для сайта Hacker News
                         </a>.
-                        <div>Стек:  &nbsp;<b>React (React Router)</b>, &nbsp;<b>CSS</b>
-                            , &nbsp;<b>TypeScript</b>
+                        <div><b>Стек:</b>  &nbsp;<b>React (React Router)</b>, &nbsp;<b>CSS</b>
+                            , &nbsp;<b>TypeScript</b>, &nbsp;<b>Ant Design</b>
                             .
+                        </div>
+                        <div>
+                            <b>
+                                <a className="hrefGithub" target="_blank" rel="noreferrer" href="https://github.com/nsokolova0399/Hacker-News">Ссылка
+                                    на github.
+                                </a>
+                            </b>
+                        </div>
+                        <div>
+                            <b>
+                                <a className="hrefGithub" target="_blank" rel="noreferrer" href="https://capable-starlight-afd13b.netlify.app/"> Тут можно посмотреть как работает проект.
+                                </a>
+                            </b>
                         </div>
                         <div>
                             <a href="https://news.ycombinator.com/news" style={textMyProjectTitle} rel="noreferrer" target="_blank">
@@ -33,7 +46,7 @@ function ProjectHackerNews() {
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2000}>
+                            <Carousel.Item interval={2500}>
                                 <img
                                     className="d-block w-100"
                                     src="./image/HackerNews1.webp"

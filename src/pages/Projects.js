@@ -3,17 +3,23 @@ import ProjectFrontMain from "../components/ProjectFrontMain";
 import ProjectCalculation from "../components/ProjectCalculation"
 import ProjectHackerNews from "../components/ProjectHackerNews"
 import ProjectVueLearning from "../components/ProjectVueLearning"
+import ProjectShop from "../components/ProjectShop"
+import ProjectBD from "../components/ProjectBD"
 
 export const Projects = () => {
     return (
         <>
             <ProjectFrontMain/>
-            <div style={{height: "8rem", backgroundColor: "#ffffff"}}/>
+            <div className="blockWhite"/>
             <ProjectCalculation/>
-            <div style={{height: "8rem", backgroundColor: "#ffffff"}}/>
+            <div className="blockWhite"/>
             <ProjectHackerNews/>
-            <div style={{height: "8rem", backgroundColor: "#ffffff"}}/>
+            <div className="blockWhite"/>
             <ProjectVueLearning/>
+            <div className="blockWhite"/>
+            {/*<ProjectShop />*/}
+            {/*<div className="blockWhite"/>*/}
+            {/*<ProjectBD />*/}
         </>
     )
 }
