@@ -98,7 +98,6 @@ function Mouse() {
         <div className="main-font" style={{backgroundColor: "#adb8ff", color: "black"}}>
             <h1 className="main-title" style={{color: "#0f0a97", paddingBottom:"0"}}>События мыши</h1>
             <h3 className="main-title-sub" style={{color: "#0f0a97"}}>Перетащите цветные квадраты в прямоугольник</h3>
-
             <div className="main-puzzle">
                 <div className="main-block1-square">
                     <img className="item-1" alt="" src="image/rectangle1.svg" onMouseDown={onmousedown}

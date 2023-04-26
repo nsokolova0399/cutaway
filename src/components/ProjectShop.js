@@ -13,29 +13,32 @@ function ProjectShop() {
                         </div>
                         <div>
                             <b>
-                                <a className="hrefGithub" target="_blank" rel="noreferrer" href="https://github.com/nsokolova0399/vue_learning">Ссылка
+                                <a className="hrefGithub" target="_blank" rel="noreferrer" href="https://github.com/nsokolova0399/shopDresses">Ссылка
                                     на github.
                                 </a>
                             </b>
                         </div>
                         <div>
                             <b>
-                                <a className="hrefGithub" target="_blank" rel="noreferrer" href="https://learinig-vue-1.netlify.app/"> Тут можно посмотреть как работает проект.
+                                <a className="hrefGithub" target="_blank" rel="noreferrer" href="https://idyllic-swan-9dfe2d.netlify.app/"> Тут можно посмотреть как работает проект.
                                 </a>
                             </b>
                         </div>
                         <div>
-                            Реализован парсер для обработки входной строки (в дальнейшим
-                            можно добавить кнопок и реализовать скобки, возведение в степень и т д).
-                            Реализовано popup меню для изменения темы сайта и дизайна калькулятора. &nbsp;
+                            Реализован интернет-магазин платьев. Данные лежат на сервисе mockAPI.<br/>
+                            Реализовано:<br/>
+                            - добавление товара в корзину, просмотр товаров в корзине;<br/>
+                            - добавление товара в избранное, просмотр товаров в в избранном;<br/>
+                            - просмотр карточки товара в модальном окне;<br/>
+                            - оформление заказа и просмотр всех заказанных товаров.<br/>
                         </div>
                     </div>
                     <div className="col-12 col-lg-8 col-md-12 col-xs-8">
                         <Carousel variant="dark" style={{padding: "3rem"}}>
-                            <Carousel.Item interval={2500}>
+                            <Carousel.Item interval={3000}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Calculation.webp"
+                                    src="image/Shop1.jpg"
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
@@ -43,15 +46,39 @@ function ProjectShop() {
                             <Carousel.Item interval={2300}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Calculation1.webp"
+                                    src="image/Shop2.jpg"
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2800}>
+                            <Carousel.Item interval={3100}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Calculation2.webp"
+                                    src="image/Shop3.jpg"
+                                    alt="Third slide"
+                                    style={{height: "100%"}}
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval={3000}>
+                                <img
+                                    className="d-block w-100"
+                                    src="image/Shop4.jpg"
+                                    alt="Third slide"
+                                    style={{height: "100%"}}
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval={2500}>
+                                <img
+                                    className="d-block w-100"
+                                    src="image/Shop5.jpg"
+                                    alt="Third slide"
+                                    style={{height: "100%"}}
+                                />
+                            </Carousel.Item>
+                            <Carousel.Item interval={3000}>
+                                <img
+                                    className="d-block w-100"
+                                    src="image/Shop6.jpg"
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />
@@ -68,7 +95,7 @@ function ProjectShop() {
 export default ProjectShop;
 
 const frontMain = {
-    backgroundColor: "#61b83b",
+    backgroundColor:"#860074",
     color: "white",
     maxHeight: "90rem",
     minHeight: "30rem",

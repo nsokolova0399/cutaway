@@ -8,8 +8,7 @@ function Pictures() {
                 <div className="row">
                     <div className="col-12 col-lg-12 col-md-12 col-xs-12" style={textMyProjectTitle}>
                         <div>
-                            <b>Стек:</b> HTML, CSS, Sass, JavaScript,Vue.js (Vue Router, Vuex), React.js (React Route,
-                            Redux).
+                            <b>Стек:</b> HTML, CSS, Sass, JavaScript,Vue.js (Vue Router), React.js (React Route).
                         </div>
                         <div>
                             <b>Базы данных:</b> SQL (простые запросы, обновления данных, создание и удаления таблиц, вложенные запросы, объединение таблиц).
@@ -30,28 +29,28 @@ function Pictures() {
                     </div>
                     <div className="col-12 col-lg-12 col-md-12 col-xs-12">
                         <Carousel variant="dark">
-                            <Carousel.Item interval={2000}>
+                            <Carousel.Item interval={2500}>
                                 <img
                                     className="d-block  w-100"
                                     src="./image/HackerNews.webp"
                                     alt="First slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2000}>
+                            <Carousel.Item interval={2500}>
                                 <img
                                     className="d-block w-100"
                                     src="./image/Calculation.webp"
                                     alt="Third slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2000}>
+                            <Carousel.Item interval={2500}>
                                 <img
                                     className="d-block w-100"
                                     src="./image/Vue.webp"
                                     alt="Four slide"
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2000}>
+                            <Carousel.Item interval={2500}>
                                 <img
                                     className="d-block w-100"
                                     src="./image/VueLearning.webp"

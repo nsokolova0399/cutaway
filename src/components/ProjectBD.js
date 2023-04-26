@@ -55,7 +55,7 @@ function ProjectBD() {
 export default ProjectBD;
 
 const frontMain = {
-    backgroundColor: "#3bb890",
+    backgroundColor:"rgb(255,177,94)",
     color: "white",
     maxHeight: "90rem",
     minHeight: "30rem",

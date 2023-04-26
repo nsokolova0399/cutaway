@@ -14,10 +14,11 @@ const MyVanta = () => {
                 gyroControls: false,
                 minHeight: 200.00,
                 minWidth: 200.00,
-                skyColor: 0x0,
-                cloudColor: 0x8c1990,
-                sunColor: 0xff1885,
-                sunGlareColor: 0xff3030,
+                skyColor: 0x5a016f,
+                cloudColor: 0x742074,
+                sunColor: 0xffbdf2,
+                sunGlareColor: 0xed00ff,
+                sunlightColor: 0xff3030,
                 speed: 1.50
             }))
         }

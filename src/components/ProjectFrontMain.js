@@ -99,7 +99,7 @@ function ProjectFrontMain() {
 export default ProjectFrontMain;
 
 const frontMain = {
-    backgroundColor: "#6A2C70",
+    backgroundColor:"#600086",
     color: "white",
     maxHeight: "90rem",
     minHeight: "30rem",

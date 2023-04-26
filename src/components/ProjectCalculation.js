@@ -69,7 +69,7 @@ function ProjectCalculation() {
 export default ProjectCalculation;
 
 const frontMain = {
-    backgroundColor: "#B83B5E",
+    backgroundColor:"rgb(255,177,94)",
     color: "white",
     maxHeight: "90rem",
     minHeight: "30rem",

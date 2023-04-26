@@ -14,14 +14,14 @@ function ProjectVueLearning() {
                         </div>
                         <div>
                             <b>
-                                <a style={{color:"#000000"}} className="hrefGithub" target="_blank" rel="noreferrer" href="https://github.com/nsokolova0399/vue_learning">Ссылка
+                                <a style={textGit} className="hrefGithub" target="_blank" rel="noreferrer" href="https://github.com/nsokolova0399/vue_learning">Ссылка
                                     на github.
                                 </a>
                             </b>
                         </div>
                         <div>
                             <b>
-                                <a style={{color:"#000000"}} className="hrefGithub" target="_blank" rel="noreferrer" href="https://learinig-vue-1.netlify.app/"> Тут можно посмотреть как работает проект.
+                                <a style={textGit} className="hrefGithub" target="_blank" rel="noreferrer" href="https://learinig-vue-1.netlify.app/"> Тут можно посмотреть как работает проект.
                                 </a>
                             </b>
                         </div>
@@ -78,8 +78,8 @@ function ProjectVueLearning() {
 export default ProjectVueLearning;
 
 const frontMain = {
-    backgroundColor: "#F9ED69",
-    color: "black",
+    backgroundColor:"rgb(255,94,94)",
+    color: "white",
     maxHeight: "90rem",
     minHeight: "30rem",
 }
@@ -87,12 +87,16 @@ const frontMain = {
 const textMyProject = {
     padding: "2rem",
     fontSize: "1.7rem",
-    fontWeight: "400"
+    fontWeight: "400",
 }
 
 const textMyProjectTitle = {
     fontSize: "1.9rem",
     textDecoration: "none",
-    color:"black",
+    color:"white",
     fontWeight:"800"
+}
+
+const textGit = {
+    color:"white",
 }

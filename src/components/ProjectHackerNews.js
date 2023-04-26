@@ -74,7 +74,7 @@ function ProjectHackerNews() {
 export default ProjectHackerNews;
 
 const frontMain = {
-    backgroundColor: "#F08A5D",
+    backgroundColor:"#d40043",
     color: "white",
     maxHeight: "90rem",
     minHeight: "30rem",

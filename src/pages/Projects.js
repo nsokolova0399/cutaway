@@ -4,20 +4,20 @@ import ProjectCalculation from "../components/ProjectCalculation"
 import ProjectHackerNews from "../components/ProjectHackerNews"
 import ProjectVueLearning from "../components/ProjectVueLearning"
 import ProjectShop from "../components/ProjectShop"
-import ProjectBD from "../components/ProjectBD"
+// import ProjectBD from "../components/ProjectBD"
 
 export const Projects = () => {
     return (
         <>
-            <ProjectFrontMain/>
+            <ProjectFrontMain />
             <div className="blockWhite"/>
-            <ProjectCalculation/>
+            <ProjectShop />
             <div className="blockWhite"/>
-            <ProjectHackerNews/>
+            <ProjectHackerNews />
             <div className="blockWhite"/>
             <ProjectVueLearning/>
             <div className="blockWhite"/>
-            {/*<ProjectShop />*/}
+            <ProjectCalculation />
             {/*<div className="blockWhite"/>*/}
             {/*<ProjectBD />*/}
         </>

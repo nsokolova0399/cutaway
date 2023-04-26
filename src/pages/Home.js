@@ -9,7 +9,6 @@ export const Home = () => {
             <MyVanta />
             <AboutMe />
             <Pictures />
-
         </>
     )
 }
