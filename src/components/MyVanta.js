@@ -40,12 +40,12 @@ const MyVanta = () => {
                     <div>
                     <img
                         alt="Arm"
-                        src="./image/Arm.png"
+                        src="./image/Arm.webp"
                         style={myImgArm}
                     />
                     <img
                         alt="Anastasia"
-                        src="./image/me.png"
+                        src="./image/me.webp"
                         style={myImgAnastasia}
                     />
                     </div>
@@ -59,18 +59,18 @@ const MyVanta = () => {
 const myImgAnastasia = {
     position: "absolute",
     marginTop: "-5rem",
-    marginLeft: "6.7rem",
+    marginLeft: "3rem",
     Right: "0rem",
     zIndex: "1",
     height: "45.5rem",
 }
 const myImgArm = {
     position: "absolute",
-    marginLeft: "-4.5rem",
-    marginTop: "6.5rem",
+    marginLeft: "-8.65rem",
+    marginTop: "5.2rem",
     animation: "myAnim 3s ease 2s infinite normal forwards",
     zIndex: "2",
-    height: "17rem"
+    height: "18rem"
 }
 const textGreeting = {
     paddingTop:"4rem",
