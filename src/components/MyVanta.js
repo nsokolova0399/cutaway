@@ -31,20 +31,21 @@ const MyVanta = () => {
     return <div ref={myRef} className="blockFirst">
         <div className="container">
             <div className="row" style={{justifyContent:"space-between", display:"flex"}}>
+                <div className="col-1 col-sm-1 col-md-1 col-lg-1"></div>
                 <Slide direction={"up"} duration={"1000"} className="col-5 col-sm-5 col-md-5 col-lg-5 textBlockFirst text-center" style={textGreeting}>
-                        Привет! Меня зовут - Анастасия. Я начинающий frontend разработчик. Здесь Вы можете больше
+                        Привет! Меня зовут — Анастасия. Я начинающий frontend разработчик. Здесь Вы можете больше
                         узнать обо мне, познакомиться с моими проектами.
                 </Slide>
-                <Fade direction={"center"} duration={"2000"} className="col-6 col-sm-6 col-md-6 col-lg-6 textBlockFirst" style={{paddingTop:"6rem"}}>
+                <Fade direction={"center"} duration={"2000"} className="col-6 col-sm-6 col-md-6 col-lg-6 textBlockFirst" style={{paddingTop:"5.5rem"}}>
                     <div>
                     <img
                         alt="Arm"
-                        src="./image/Arm.svg"
+                        src="./image/Arm.png"
                         style={myImgArm}
                     />
                     <img
                         alt="Anastasia"
-                        src="./image/Anastasia.svg"
+                        src="./image/me.png"
                         style={myImgAnastasia}
                     />
                     </div>
@@ -57,19 +58,19 @@ const MyVanta = () => {
 
 const myImgAnastasia = {
     position: "absolute",
-    marginTop: "-4.70rem",
-    marginLeft: "4.2rem",
+    marginTop: "-5rem",
+    marginLeft: "6.7rem",
     Right: "0rem",
     zIndex: "1",
-    height: "32rem",
+    height: "45.5rem",
 }
 const myImgArm = {
     position: "absolute",
-    marginLeft: "-4.9rem",
-    marginTop: "4.5rem",
+    marginLeft: "-4.5rem",
+    marginTop: "6.5rem",
     animation: "myAnim 3s ease 2s infinite normal forwards",
-    zIndex: "0",
-    height: "15rem"
+    zIndex: "2",
+    height: "17rem"
 }
 const textGreeting = {
     paddingTop:"4rem",
