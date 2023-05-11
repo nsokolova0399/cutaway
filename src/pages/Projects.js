@@ -4,6 +4,8 @@ import ProjectCalculation from "../components/ProjectCalculation"
 import ProjectHackerNews from "../components/ProjectHackerNews"
 import ProjectVueLearning from "../components/ProjectVueLearning"
 import ProjectShop from "../components/ProjectShop"
+import Case from "../components/Case"
+
 // import ProjectBD from "../components/ProjectBD"
 
 export const Projects = () => {
@@ -18,6 +20,8 @@ export const Projects = () => {
             <ProjectVueLearning/>
             <div className="blockWhite"/>
             <ProjectCalculation />
+            <div className="blockWhite"/>
+            <Case />
             {/*<div className="blockWhite"/>*/}
             {/*<ProjectBD />*/}
         </>
