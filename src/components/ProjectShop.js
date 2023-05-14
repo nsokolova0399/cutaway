@@ -7,7 +7,7 @@ function ProjectShop() {
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-lg-4 col-md-12 col-xs-4" style={textMyProject}>
-                        <a href="https://calculator-rr-1.netlify.app/" style={textMyProjectTitle} target="_blank" rel="noreferrer">Интернет-магазин женских платьев.</a>
+                        <a href="https://idyllic-swan-9dfe2d.netlify.app/" style={textMyProjectTitle} target="_blank" rel="noreferrer">Интернет-магазин женских платьев.</a>
                         <div><b>Стек:</b> &nbsp;<b>React.js</b>,
                             &nbsp; <b>HTML</b>, &nbsp;<b>CSS (SASS) </b>.
                         </div>
