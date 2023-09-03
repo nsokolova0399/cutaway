@@ -1,15 +1,15 @@
 import React from "react";
-import MyVanta from "../components/MyVanta";
-import Pictures from "../components/Pictures";
-import AboutMe from "../components/AboutMe";
+import Greeting from "../components/Greeting/Greeting";
+import Pictures from "../components/Pictures/Pictures";
+import AboutMe from "../components/AboutMe/AboutMe";
 
 export const Home = () => {
     return (
-        <>
-            <MyVanta />
+        <div className="home">
+            <Greeting />
             <AboutMe />
             <Pictures />
-        </>
+        </div>
     )
 }
 

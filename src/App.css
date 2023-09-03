@@ -1,29 +1,29 @@
 @font-face {
     font-family:'IstokRegular', sans-serif;
-    src:url("../fonts/Istok-Regular.ttf")
+    src:url("assets/fonts/Istok-Regular.ttf")
 }
 
 @font-face {
     font-family:'GloberSemiBold', arial;
-    src:url("../fonts/globersemiboldfree.ttf")
+    src:url("assets/fonts/globersemiboldfree.ttf")
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
     html{
-        font-size: 5px;
+        font-size: 4px;
     }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
     html{
-        font-size: 7px;
+        font-size: 5px;
     }
 }
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
     html{
-        font-size: 8px;
+        font-size: 7px;
     }
 }
 /* Medium Devices, Desktops */
@@ -40,11 +40,11 @@
 }
 
 :root[data-theme="light"] {
-    --background-color: #698cc6;
-    --color: #f2fbff;
+    --background-color: #d54871;
+    --color: #ffffff;
 }
 :root[data-theme="dark"] {
-    --background-color: #211139;
+    --background-color: #291b57;
     --color: #ffffff;
 }
 
@@ -91,7 +91,7 @@ input {
     left: 0;
     z-index: 1;
     overflow: hidden;
-    background-color: #9f33d9;
+    background-color: #d54871;
     border-radius: 5rem;
     cursor: pointer;
     transition: all 1.4s;
@@ -134,34 +134,12 @@ input:checked + .slider:after {
 }
 input:checked ~ .wave {
     display: block;
-    background-color:  #5de2fc;
+    background-color:  #291b57;
 }
 
-.blockFirst{
-    background-color: var(--background-color);
-    max-height: 60rem;
-    min-height: 40rem;
-    z-index: -200;
-}
-.blockSecond{
-    background-color: rgba(217, 194, 194, 0);
-    max-height: 100rem;
-    min-height: 60rem;
-    width: 99%;
-}
 
-.blockThird{
-    background-color: var(--background-color);
-    color: var(--color);
-    max-height: 90rem;
-    min-height: 30rem;
-    padding:3rem;
-}
 
-.textBlockFirst{
-    color: var(--color);
-    padding-left: 1rem;
-}
+
 
 
 @keyframes myAnim {
@@ -213,23 +191,8 @@ input:checked ~ .wave {
     color: var(--background-color);
     font-family: 'IstokRegular',arial, sans-serif;
 }
-.titleTextBlock{
-    font-size: 2rem;
-    font-family: 'IstokRegular',arial, sans-serif;
-    font-weight: 500;
-    line-height: 1.8;
-    color: var(--background-color);
-    text-align: justify;
-}
+
 .blockWhite{
     height: 8rem;
     background-color: #ffffff;
-}
-.hrefGithub{
-    text-decoration: none;
-    color:#ffffff;
-}
-.hrefGithub:hover{
-    text-decoration: none;
-    color: #b9f687;
 }

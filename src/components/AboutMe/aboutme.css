@@ -1,0 +1,18 @@
+.aboutme{
+    background-color: white;
+    padding: 2rem 10rem 2rem 10rem;
+    color: black;
+}
+.aboutme__title{
+    font-size: 2.5rem;
+    font-family: GloberSemiBold, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    color: var(--background-color);
+    text-align: justify;
+}
+
+.aboutme__text{
+    font-size: 2rem;
+    font-weight: 500;
+}

@@ -1,16 +1,17 @@
 import React from "react";
-import ProjectFrontMain from "../components/ProjectFrontMain";
-import ProjectCalculation from "../components/ProjectCalculation"
-import ProjectHackerNews from "../components/ProjectHackerNews"
-import ProjectVueLearning from "../components/ProjectVueLearning"
-import ProjectShop from "../components/ProjectShop"
-import Case from "../components/Case"
+import ProjectFrontMain from "../components/Project/ProjectFrontMain";
+import ProjectCalculation from "../components/Project/ProjectCalculation";
+import ProjectHackerNews from "../components/Project/ProjectHackerNews";
+import ProjectVueLearning from "../components/Project/ProjectVueLearning";
+import ProjectShop from "../components/Project/ProjectShop";
+import ProjectCase from "../components/Project/ProjectCase";
+import ProjectInternship from "../components/Project/ProjectInternship";
+import '../components/Project/project.css';
 
-// import ProjectBD from "../components/ProjectBD"
 
 export const Projects = () => {
     return (
-        <>
+        <div>
             <ProjectFrontMain />
             <div className="blockWhite"/>
             <ProjectShop />
@@ -21,10 +22,10 @@ export const Projects = () => {
             <div className="blockWhite"/>
             <ProjectCalculation />
             <div className="blockWhite"/>
-            <Case />
-            {/*<div className="blockWhite"/>*/}
-            {/*<ProjectBD />*/}
-        </>
+            <ProjectCase />
+            <div className="blockWhite"/>
+            <ProjectInternship />
+        </div>
     )
 }
 

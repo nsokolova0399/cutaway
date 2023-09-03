@@ -1,15 +1,25 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import '../Project/project.css';
+import vue from '../../assets/image/Vue.webp';
+import vue1 from '../../assets/image/Vue1.webp';
+import vue2 from '../../assets/image/Vue2.webp';
+import vue3 from '../../assets/image/Vue3.webp';
+import vue4 from '../../assets/image/Vue4.webp';
+import vue5 from '../../assets/image/Vue5.webp';
+import vue6 from '../../assets/image/Vue6.webp';
 
 function ProjectFrontMain() {
     return (
-        <div style={frontMain}>
+        <div className="project__front-main">
             <div className="container">
                 <div className="row">
-                    <div className="col-12 col-lg-4 col-md-12 col-xs-4" style={textMyProject}>
+                    <div className="col-12 col-lg-4 col-md-12 col-xs-4 project__text">
                         <a href="https://github.com/nsokolova0399/frontend-main" rel="noreferrer"
-                           style={textMyProjectTitle} target="_blank">Разработка интерфейсной части системы поиска
-                            решения на основе прецендентов.</a>
+                           className="project__title" target="_blank">
+                            Разработка интерфейсной части системы поиска
+                            решения на основе прецедентов.
+                        </a>
                         <div><b>Стек: </b> <b>Vue.js</b> (vue-router, vuelidate, vue-apollo, vue-notification),
                             &nbsp;<b>Bootstrap-vue</b>, &nbsp;<b>GraphQL</b>, &nbsp;<b>CSS</b>.
                         </div>
@@ -34,7 +44,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue.webp"
+                                    src={vue}
                                     alt="First slide"
                                     style={{height: "100%"}}
                                 />
@@ -42,7 +52,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue1.webp"
+                                    src={vue1}
                                     alt="Second slide"
                                     style={{height: "100%"}}
                                 />
@@ -50,7 +60,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue2.webp"
+                                    src={vue2}
                                     alt="Third slide"
                                     style={{height: "100%"}}
                                 />
@@ -58,7 +68,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue3.webp"
+                                    src={vue3}
                                     alt="Four slide"
                                     style={{height: "100%"}}
                                 />
@@ -66,7 +76,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue4.webp"
+                                    src={vue4}
                                     alt="Four slide"
                                     style={{height: "100%"}}
                                 />
@@ -74,7 +84,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue5.webp"
+                                    src={vue5}
                                     alt="Five slide"
                                     style={{height: "100%"}}
                                 />
@@ -82,7 +92,7 @@ function ProjectFrontMain() {
                             <Carousel.Item interval={2200}>
                                 <img
                                     className="d-block w-100"
-                                    src="./image/Vue6.webp"
+                                    src={vue6}
                                     alt="Six slide"
                                     style={{height: "100%"}}
                                 />
@@ -95,25 +105,4 @@ function ProjectFrontMain() {
     );
 }
 
-
 export default ProjectFrontMain;
-
-const frontMain = {
-    backgroundColor:"#600086",
-    color: "white",
-    maxHeight: "90rem",
-    minHeight: "30rem",
-}
-
-const textMyProject = {
-    padding: "2rem",
-    fontSize: "1.7rem",
-    fontWeight: "400"
-}
-
-const textMyProjectTitle = {
-    fontSize: "1.9rem",
-    textDecoration: "none",
-    color: "#ffffff",
-    fontWeight: "800"
-}

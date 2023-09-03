@@ -1,0 +1,24 @@
+.greeting{
+    background: linear-gradient(70deg,var(--background-color),#301c3d,#000000);
+    z-index: -200;
+    display:flex;
+    justify-content: space-between;
+}
+.greeting__text{
+    font-size: 2.7rem;
+    font-family: GloberSemiBold, sans-serif;
+    font-weight: 400;
+    color:white;
+    line-height: 1.8;
+    z-index: 2;
+    text-align:center;
+    padding-left:5rem;
+    margin:auto;
+}
+.greeting__image{
+    padding-right: 15rem;
+    padding-top: 5rem;
+}
+.greeting__image img{
+    height: 50rem;
+}

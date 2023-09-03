@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import {ThemeContext, themes} from "../contexts/ThemeContext";
 import Toggle from "./Toggle";
 import {Link} from 'react-router-dom';
+import vk from '../assets/image/vk.svg';
+import tg from '../assets/image/telegramm.svg';
 
 export const MyNavbar = () => {
     const menu = {
@@ -22,22 +24,6 @@ export const MyNavbar = () => {
             <Navbar bg="light" className="myHeader text-right">
                 <Container>
                     <Navbar>
-                        <Nav.Link href="https://vk.com/nastasia__s_s" target="_blank" >
-                            <div className="d-flex myImg">
-                                <img
-                                    alt="vk"
-                                    src="./image/vk.svg"
-                                />
-                            </div>
-                        </Nav.Link>
-                        <Nav.Link href="https://t.me/nsokolova_03" target="_blank">
-                            <div className="d-flex myImg">
-                                <img
-                                    alt="telegramm"
-                                    src="./image/telegramm.svg"
-                                />
-                            </div>
-                        </Nav.Link>
                         <div>
                             <Link to="/" style={menu}>
                                 Главная
@@ -46,11 +32,6 @@ export const MyNavbar = () => {
                         <div>
                             <Link to="/Projects" style={menu}>
                                 О Проектах
-                            </Link>
-                        </div>
-                        <div>
-                            <Link to="/Practice" style={menu}>
-                                Практикум
                             </Link>
                         </div>
                     </Navbar>
@@ -69,6 +50,22 @@ export const MyNavbar = () => {
                                     )
                                 }
                             </ThemeContext.Consumer>
+                        </Nav.Link>
+                        <Nav.Link href="https://vk.com/nastasia__s_s" target="_blank" >
+                            <div className="d-flex myImg">
+                                <img
+                                    alt="vk"
+                                    src={vk}
+                                />
+                            </div>
+                        </Nav.Link>
+                        <Nav.Link href="https://t.me/nsokolova_03" target="_blank">
+                            <div className="d-flex myImg">
+                                <img
+                                    alt="telegramm"
+                                    src={tg}
+                                />
+                            </div>
                         </Nav.Link>
                     </Navbar>
                 </Container>

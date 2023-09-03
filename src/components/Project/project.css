@@ -1,0 +1,62 @@
+.project__front-main{
+    background-color:#a862ea;
+    color: white;
+    max-height: 90rem;
+    min-height: 30rem;
+}
+.project__shop{
+    background-color:#6545a4;
+    color: white;
+    max-height: 90rem;
+    min-height: 30rem;
+}
+.project__hackernews{
+    background-color:#4e55a4;
+    color: white;
+    max-height: 90rem;
+    min-height: 30rem;
+}
+.project__vuelearning{
+    background-color:#6383ea;
+    color: white;
+    max-height: 90rem;
+    min-height: 30rem;
+}
+.project__calculation{
+    background-color:#465ca4;
+    color: white;
+    max-height: 90rem;
+    min-height: 30rem;
+}
+.project__case{
+    background-color:#6b45a4;
+    color: white;
+    max-height: 90rem;
+    min-height: 30rem;
+}
+.project__internship{
+    background-color:#7545a4;
+    color: white;
+    max-height: 90rem;
+    min-height: 30rem;
+}
+.project__text{
+    padding: 2rem;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+.project__title{
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+}
+.hrefGithub{
+    text-decoration: none;
+    color:#ffffff;
+}
+.hrefGithub:hover{
+    text-decoration: none;
+    color: #b9f687;
+}
+
