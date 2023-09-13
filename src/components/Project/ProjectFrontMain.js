@@ -1,13 +1,13 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import '../Project/project.css';
-import vue from '../../assets/image/Vue.webp';
-import vue1 from '../../assets/image/Vue1.webp';
-import vue2 from '../../assets/image/Vue2.webp';
-import vue3 from '../../assets/image/Vue3.webp';
-import vue4 from '../../assets/image/Vue4.webp';
-import vue5 from '../../assets/image/Vue5.webp';
-import vue6 from '../../assets/image/Vue6.webp';
+import vue4 from '../../assets/image/Vue.jpg';
+import vue from '../../assets/image/Vue1.webp';
+import vue1 from '../../assets/image/Vue2.webp';
+import vue2 from '../../assets/image/Vue3.webp';
+import vue3 from '../../assets/image/Vue5.webp';
+import vue6 from '../../assets/image/Vue7.jpg';
+import vue5 from '../../assets/image/Vue8.jpg';
 
 function ProjectFrontMain() {
     return (
@@ -81,7 +81,7 @@ function ProjectFrontMain() {
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2200}>
+                            <Carousel.Item interval={2000}>
                                 <img
                                     className="d-block w-100"
                                     src={vue5}
@@ -89,7 +89,7 @@ function ProjectFrontMain() {
                                     style={{height: "100%"}}
                                 />
                             </Carousel.Item>
-                            <Carousel.Item interval={2200}>
+                            <Carousel.Item interval={2500}>
                                 <img
                                     className="d-block w-100"
                                     src={vue6}
